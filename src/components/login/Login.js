@@ -74,11 +74,11 @@ class Login extends Component {
         }
            
     }
-
+//
     login = async () => {
         let user = {
             username:this.state.username,
-            password:this.state.password
+            password:this.state.password 
         }
         try {
             let res = await axios.post('/auth/login',user);
