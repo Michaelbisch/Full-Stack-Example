@@ -1,4 +1,4 @@
-const bcrypt = require('bcryptjs')
+const bcrypt = require('bcryptjs') 
 
 module.exports ={
     register: async (req,res)=>{
